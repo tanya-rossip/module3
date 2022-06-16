@@ -1,0 +1,169 @@
+ /* background-color: #8ecae6; */
+    /* color: #219ebc;
+    color: #023047;
+    color: #ffb703; 
+    color: #8ecae6; */ 
+
+ html
+{
+    color: #023047;
+    font-family: Helvetica, serif;
+    font-size: larger;
+} 
+
+nav{
+    width: 100%;
+    background-color: #8ecae6;
+
+}
+
+header
+{
+    display: flex;
+    border: 5px solid #219ebc;
+    /* height: 80px; */
+    /* position: fixed; */
+    /* z-index: 10; */
+}
+
+h1 
+{
+    padding: 10px 20px;
+    /* position: absolute;
+    z-index: 100; */
+ 
+}
+
+.main, h3, p
+{
+    background-color: #219ebc;
+}
+
+h3
+{
+    margin: 0;
+}
+
+h2
+{
+    margin: 50px;
+}
+
+
+/*TEMP*/
+
+
+
+.navbar-toggle {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px 15px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #023047;
+    border-radius: 4px;
+  }
+
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+
+
+  
+  @media (min-width: 485px) {
+    .navbar-toggle, .pos-f-t,  .mobile-container, .top-nav, a.icon, .top-nav a, header div{
+      display: none;
+
+    }
+  }
+
+  
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  .icon-bar {
+    margin-top: 4px;
+    border: 3px solid #023047;
+  }
+  
+
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  /*temp*/
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #8ecae6;
+    
+
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    width: 600px;
+  }
+  
+  /* here is three lines can be as well */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+
+  }
+  
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 400px;
+
+  }
