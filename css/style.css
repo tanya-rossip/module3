@@ -71,7 +71,7 @@ h2
 
 
   
-  @media (min-width: 485px) {
+  @media (min-width:  768px) {
     .navbar-toggle, .pos-f-t,  .mobile-container, .top-nav, a.icon, .top-nav a, header div{
       display: none;
 
